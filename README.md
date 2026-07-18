@@ -20,7 +20,7 @@ Usage
    make serve
 
 3. Run the client to connect to the server:
-   make run ARGS="<server_ip> <port>"
+   make run ARGS="<server_ip> <port>" 
 
 Alternatively, you can run the client directly:
    ./shadow <server_ip> <port>
