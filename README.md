@@ -13,14 +13,17 @@ Components
 
 Usage
 -----
-1. Compile the client:
-   gcc shadow.c -o shadow
+1. Build the client:
+   make
 
 2. Start the server:
-   python3 server.py
+   make serve
 
 3. Run the client to connect to the server:
-   ./shadow [server_ip] [port]
+   make run ARGS="<server_ip> <port>"
+
+Alternatively, you can run the client directly:
+   ./shadow <server_ip> <port>
 
 Configuration
 -------------
@@ -37,6 +40,12 @@ Edit shadow.c to configure:
 
 Building
 --------
+The Makefile provides the following targets:
+- `make` or `make all`: compile the client
+- `make serve`: run the Python server
+- `make run ARGS="..."`: run the client with arguments
+- `make clean`: remove the compiled binary
+
 To rebuild the client from source:
    make
 
@@ -50,7 +59,6 @@ This project is provided for educational and authorized testing purposes only.
 Author
 ------
 grisun0 of LazyOwn RedTeam
-
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y2Z73AV)
