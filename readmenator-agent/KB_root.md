@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## server.py
-- Doc: Servidor DNS C2 – robusto y funcional sudo python3 server_dns.py
 - Layer: utility
+- Doc: Servidor DNS C2 – robusto y funcional sudo python3 server_dns.py
 - Language: py
 - Symbols:
   - `encode_b64` (function, line 17) `def encode_b64(data)`
@@ -14,7 +14,6 @@
   - `cmd_input` (function, line 156) `def cmd_input()`
 
 ## shadow.c
-- Doc: build_dns_query: else if (c == '-') val = 62; else if (c == '_') val = 63; else continue; n = (n...
 - Layer: utility
 - Language: c
 - Symbols:
