@@ -1,0 +1,107 @@
+{
+  "concepts": [
+    {
+      "name": "dns",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "server",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 5,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "b64",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 4,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "decode",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "query",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 3,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "build",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "cmd",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "encode",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "response",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "respuesta",
+      "files": [
+        "server.py",
+        "shadow.c"
+      ],
+      "mentions": 2,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `b64` centralizes 2 files; Antithesis: `build` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `cmd` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `decode` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `dns` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `encode` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `query` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `response` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `respuesta` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `b64` centralizes 2 files; Antithesis: `server` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `build` centralizes 2 files; Antithesis: `cmd` pulls 2 files with 2 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
